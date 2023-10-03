@@ -1,0 +1,115 @@
+body{
+    /* background-image: url('circle.avif'); */
+    background-color: rgb(34, 32, 32);
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    color: wheat;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    /* height: 90vh; */
+
+}
+
+nav{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(235, 225, 225);
+    margin: 40px;
+    cursor:grab;
+}
+nav a:first-child{
+    margin-right: 50%;
+}
+
+nav img{
+    height: 100px;
+    width: 100px;
+}
+
+.container{
+    display: inline-flex;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.container p{
+    color: rgb(235, 231, 231);
+}
+
+.cont-text{
+    margin-top: 0%;
+
+}
+.cont-text p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+
+.cont-image{
+    margin-left: 5%;
+}
+
+.image-cover{
+    margin-top: 0;
+    border-style:double;
+    border-width: 20px;
+    border-image: linear-gradient(to right, rgb(145, 152, 156), #53571e); /* Apply the linear gradient as the border image */
+    border-image-slice: 1;
+}
+
+.cont-image img{
+    width: 300px;
+    height: 300px;
+}
+
+.video-container {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.contact-container {
+    border: 1px solid white;
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+}
+
+.contact-form {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.contact-form p{
+    color:rgb(187, 68, 68);
+    font-size: smaller;
+    display: none;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #222; 
+    color: #fff;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 

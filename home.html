@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href=""><img src="imag1.png" alt=""></a>
+        <a onclick="home()" >Home</a>
+        <a onclick="scratch()">Scratch</a>
+        <a onclick="contact()">Contact</a>
+    </nav>
+</header>
+    
+    <div id="home" class="container">
+        <div class="cont-text">
+            <p>
+                Hello! How are you ?
+            </p>
+            <p>
+                Welcome to this simple website 
+            </p>
+            <p>My Name is Gutu Daniel Geleta</p>
+            <p>I am trainer candidate at Kodel Lab Training center</p>
+        </div>
+        <div class="cont-image">
+            <div class="image-cover">
+                <img src="guy-pro.avif" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="scratch" class="video-container">
+        <h2>My Scratch Animation</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id_here" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div id="contact" class="contact-container">
+        <h2>Let's Hear ?</h2>
+        <form class="contact-form" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name"><br>
+            <input type="text" name="email" placeholder="Your Email"><br>
+            <textarea name="message" rows="4" placeholder="Your Message"></textarea><br>
+            <p id="name-alert">Please enter your name.</p>
+            <p id="email-alert">Please enter a valid email address.</p>
+            <p id="message-alert">Please enter your message.</p>
+            <input type="submit" value="Send Message">
+            </form>    
+    </div>
+
+<script src="home.js"></script>
+</body>
+</html>
